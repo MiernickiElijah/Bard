@@ -1,64 +1,151 @@
-:root {
-  background-image: url(./assets/images/linkedin_background.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Changes for entire CSS */
+
+*, *:before, *:after {
+  margin: 3px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+:root { 
   --boom: #fff;
   --color: #fff;
   cursor: default;
+  background-color: #509992;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  float: right;
-  list-style-type: none;
-  margin: -10px;
+html {
+  scroll-behavior: smooth;
 }
 
-.links {
-  padding: 50px;
-  color: var(--boom);
-  cursor: grab;
-}
+/* Navagation and header */
 
-#link:hover {
-  color: gold;
-  box-shadow: 0px 0px 10px var(--color);
-}
-
-span {
-  display:none;
-}
-
-#coming_soon:hover span{
-  display:block;
-  position: relative;
+nav {
+  background-image: url(assets/images/linkedin_background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center;
+  height: 100px;
 }
 
 .header {
-  text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 80px;
+  margin-bottom: 30px;
+  text-align: left;
   margin-left: auto;
   margin-right:auto;
   color: var(--color);
+  text-decoration: underline #ffff;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right:auto
+.links ul li {
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: auto;
+  color: var(--boom);
+  text-decoration: underline white;
 }
 
-p {
-  font-size: 20px;
+#link:hover {
+  color:#e78F43;
+  box-shadow: 0px 0px 10px var(--color);
+  cursor:pointer;
+}
+
+/* Biography section */
+
+.aboutme {
+  display: flex;
+  font-size: 30px;
   color: var(--color);
   font-weight: bold;
 }
 
-.footer {
-  font-weight: bolder;
-  text-align: center;
+#bio {
+ font-size: 20px;
+ font-family: monospace;
 }
 
-@media screen and (min-width: 768px) {
-    max-width: 50%;
+.sectionheads {
+  font-size: 40px;
+  font-family:'Dancing Script';
+}
+
+/* Container */
+ 
+#deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Children */
+
+.card {
+  display: inline-block;
+  width: 49%;
+  height: 49%;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  border: 12px solid #e78F43;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   }
+
+.pics {
+  height: 400px;
+  width: 400px;
+  opacity: 0.7;
+  justify-content:center;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline white;
+  font-family:monospace;
+}
+
+.card img:hover {
+    width: 420px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
+    transform: skew(2deg);
+    transition: .15s;
+    opacity: 1;
+}
+
+/* .card:first-child {
+  height: 400px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Contact section */
+
+#contactlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  color: var(--boom);
+  text-decoration: underline white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#footer {
+  border: 8px solid white;
+  border-radius: 22px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  color: #e78F43;
+}
