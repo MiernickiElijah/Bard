@@ -5,8 +5,6 @@ This is a splash page about myself that allows employers and clients to view a s
 I designed this HTML to make it simple and clean, as well as easy for people to get in touch with me and stay up to date on my projects. 
 I've learned a lot of front-end fundementals while building this page. Mainly in flexbox, HTML semantics/tags, and CSS properties. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     ![splash page screenshot](assets/images/screenshot.png)
     
 ## Credits
