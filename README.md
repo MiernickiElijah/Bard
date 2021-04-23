@@ -8,6 +8,6 @@ I've learned a lot of front-end fundementals while building this page. Mainly in
     ![splash page screenshot](assets/images/screenshot.png)
     
 ## Credits
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://developer.mozilla.org/en-US/
-https://www.w3schools.com/
+#https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+#https://developer.mozilla.org/en-US/
+#https://www.w3schools.com/
