@@ -17,10 +17,15 @@ html {
   scroll-behavior: smooth;
 }
 
+a:visited {
+  color: var(--boom);
+}
+
 /* Navagation and header */
 
 nav {
   background-image: url(assets/images/linkedin_background.jfif);
+  flex: auto;
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center center;
@@ -80,6 +85,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
 }
 
 /* Children */
@@ -121,24 +127,22 @@ h3 {
     opacity: 1;
 }
 
-/* .card:first-child {
-  height: 400px;
-  width: 800px;
+#deck article:first-child {
+  width: 100%;
   justify-content: center;
   align-items: center;
-} */
-
-/* Contact section */
+}
 
 #contactlist {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
-  color: var(--boom);
   text-decoration: underline white;
   font-family: monospace;
   font-size: 20px;
+  color: var(--boom);
 }
 
 #footer {
