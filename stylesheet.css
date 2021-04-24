@@ -91,23 +91,34 @@ nav {
 /* Children */
 
 .card {
-  display: inline-block;
+  display:flex;
+  flex-wrap: wrap;
   width: 49%;
   height: 49%;
-  margin-bottom: 0;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0;
   border: 12px solid #e78F43;
   border-radius: 30px;
   margin-top: 5px;
   margin-bottom: 5px;
+  flex-basis:content;
   }
 
 .pics {
+  display:flex;
+  flex-wrap: wrap;
   height: 400px;
   width: 400px;
   opacity: 0.7;
-  justify-content:center;
+  object-fit: scale-down;
+  flex-basis:content;
+}
+
+#top {
+  height: 400px;
+  width: 100%;
+  object-fit: scale-down;
 }
 
 h3 {
@@ -115,6 +126,7 @@ h3 {
   font-weight: bold;
   text-decoration: underline white;
   font-family:monospace;
+  justify-content: center;
 }
 
 .card img:hover {
@@ -132,6 +144,8 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+/* contact section and footer */
 
 #contactlist {
   display: flex;
