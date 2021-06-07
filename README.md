@@ -7,7 +7,7 @@
 
 + Link to website: https://miernickielijah.github.io/Bard/
 
-    ![splash page screenshot](assets/images/screenshot.png)
+    ![screenshot](assets/images/screenshot.png)
     
 ## Credits
 #https://css-tricks.com/snippets/css/a-guide-to-flexbox/
