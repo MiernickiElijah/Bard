@@ -4,7 +4,6 @@
   margin: 3px;
   padding: 4px;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 :root { 
@@ -32,6 +31,7 @@ nav {
   background-size: cover; 
   background-position: center center;
   height: 100px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .header {
@@ -77,7 +77,7 @@ nav {
 
 .sectionheads {
   font-size: 40px;
-  font-family:'Dancing Script';
+  font-family: 'Shadows Into Light', cursive;
 }
 
 /* Container */
@@ -141,12 +141,17 @@ h3 {
   font-weight: 200;
 }
 
+#myWork {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .card img:hover {
     width: 420px;
     height: 420px;
     border-radius: 10px;
     box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
-    transform: skew(2deg);
     transition: .15s;
     opacity: 1;
 }
